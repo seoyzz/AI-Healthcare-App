@@ -10,9 +10,8 @@
 프로젝트의 전체 구조와 각 폴더별 상세 역할입니다.
 
 
-
 ```text
-Vitamin-AI-Healthcare/
+AI-Healthcare/
 ├── app/                  # Flutter 모바일 애플리케이션 (사용자 UI/UX)
 │   ├── lib/
 │   │   ├── models/       # 데이터 모델 (Pill, User, History)
