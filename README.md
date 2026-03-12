@@ -1,15 +1,32 @@
-# AI-Healthcare-App
-**AI 및 IoT 기술을 접목한 개인 맞춤형 헬스케어 스마트 약통**
+# 💊 비타민 (Vitamin-AX)
+> **AI 및 IoT 기술을 접목한 개인 맞춤형 헬스케어 스마트 약통 & 에이전트**
 
-## 🌟 주요 기능
-1. [cite_start]**약물 식별 및 정보 가시화**: 카메라 모듈로 알약을 인식하여 효능과 용법을 이미지화하여 제공합니다. [cite: 5, 7, 11]
-2. [cite_start]**AI 복약 상담 에이전트**: GPT/Gemini 기반 챗봇이 현재 몸 상태에 맞는 약을 추천하고 상담해줍니다. [cite: 4, 12]
-3. [cite_start]**IoT 스마트 약통**: 복용 시간 알림(진동/앱) 및 기기 이탈 방지 알림을 제공합니다. [cite: 1, 11]
-4. [cite_start]**처방전 자동 분석**: 약봉투 사진 분석을 통해 복약 일정을 자동으로 등록합니다. [cite: 11]
-5. [cite_start]**복약 일기 및 재고 관리**: 복용 후 상태를 기록·분석하고 남은 약 수량을 관리합니다. [cite: 9, 13]
+본 프로젝트는 AI 융합 기술을 활용하여 사용자의 복약 오남용을 방지하고, 24시간 맞춤형 건강 상담을 제공하는 스마트 헬스케어 솔루션입니다.
+
+## 🌟 Key Features
+- **Smart Pill Recognition**: 카메라 모듈과 ViT/CLIP 모델을 활용한 실시간 알약 및 처방전 인식.
+- **AI Health Advisor**: LLM(GPT/Gemini) 에이전트를 통한 증상 기반 약물 추천 및 병원 방문 가이드.
+- **IoT Smart Pillbox**: 진동 모듈을 활용한 복용 알림 및 거리 센서를 통한 미지참 방지 알림.
+- **Health Log & Analysis**: 복용 후 신체 반응 기록 및 분석을 통한 복약 지속 여부 판단.
+- **Visualized Info**: 전 연령층이 이해하기 쉽도록 약학 정보를 이미지화하여 제공.
 
 ## 🛠 Tech Stack
-- **Frontend**: Flutter
-- **Backend**: Flask, MySQL
-- [cite_start]**AI**: PyTorch, Vision Transformer(ViT), CLIP, LLM (GPT/Gemini) [cite: 11, 12]
-- [cite_start]**Hardware**: Raspberry Pi, Camera Module, Vibration Motor [cite: 11]
+### Frontend & App
+- **Flutter**: Cross-platform Mobile App
+
+### Backend & AI
+- **Flask**: RESTful API Server
+- **MySQL**: Relational Database
+- **PyTorch**: Computer Vision (ViT, CLIP) & Inference
+- **OpenAI GPT / Google Gemini API**: Conversational AI Agent
+
+### Hardware (IoT)
+- **Raspberry Pi**: Main Controller
+- **Sensors**: Camera Module, Vibration Motor, Distance Sensor
+
+## 📂 Project Structure
+(위에서 제공해드린 디렉토리 구조를 여기에 넣으시면 됩니다.)
+
+## 👨‍💻 Team (비타민)
+- **정서영** (Team Leader, AI융합학과)
+- **이현우, 이재욱, 이수빈, 최유진** (Team Members, AI융합학과)
