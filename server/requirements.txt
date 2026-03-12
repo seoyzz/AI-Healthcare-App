@@ -1,0 +1,7 @@
+Flask
+torch
+torchvision
+opencv-python-headless
+google-generativeai
+Flask-PyMongo
+Flask-SQLAlchemy
